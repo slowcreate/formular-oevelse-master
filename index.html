@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burger menu-øvelse</title>
+  <link rel="stylesheet" href="css/demo.css" />
+  <!-- Ret i nedenståendde stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="banner">
+    <div class="logo">
+      <a href="#0">Logo</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <header>
+        <h2>Kontakt os</h2>
+        <p>
+          Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+          høre fra dig.
+        </p>
+      </header>
+
+      <form>
+        <!-- Formular-indhold -->
+        <div class="form_felt">
+          <label for="fornavn">Fornavn</label>
+          <input type="text" id="fornavn" name="formular" />
+          <label for="efternavn">Efternavn</label>
+          <input type="text" id="efternavn" name="formular" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="formular" /><br>
+          <select name="formular" id="dropdown">
+            <option value="">Vælg profil</option>
+            <option value="underviser">Underviser</option>
+            <option value="studerende">Studerende</option>
+          </select><br>
+          <textarea name="text" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
